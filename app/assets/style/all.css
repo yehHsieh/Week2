@@ -1,0 +1,210 @@
+@charset "UTF-8";
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+*, *::after, *::before {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+
+* {
+  outline: 1px solid black;
+}
+
+.body {
+  margin: 0 auto;
+}
+
+.banner {
+  height: 958px;
+  background: url(../images/week2/banner.png) no-repeat center center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: 101%;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.banner .banner-content {
+  width: 304px;
+  color: #fff;
+}
+.banner .banner-content span {
+  font: italic normal bold 24px/42px Roboto;
+}
+.banner .banner-content h1 {
+  font: italic normal 900 80px/106px Roboto;
+  margin-bottom: 32px;
+}
+.banner .banner-content p {
+  font: italic normal bold 24px/36px Roboto;
+  margin-bottom: 40px;
+  word-break: break-word;
+}
+.banner .banner-content .media {
+  display: flex;
+  justify-content: space-between;
+}
+
+.about {
+  margin: 0 auto;
+  width: 412px;
+  padding: 56px 0;
+  text-align: center;
+}
+.about h2 {
+  font: italic normal 400 64px/84px Roboto;
+  margin-bottom: 40px;
+}
+.about .profile {
+  margin-top: 20px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid #000;
+}
+.about .job {
+  padding: 28px 0 56px 0;
+}
+.about .job li::before {
+  content: "•";
+  color: #891818;
+  font-weight: bold;
+  width: 22px;
+  margin-right: 16px;
+}
+.about ul > li {
+  font: italic normal bold 24px/42px Roboto;
+}
+
+.brand {
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  padding: 56px 0 160px 0;
+}
+.brand h2 {
+  font: italic normal 400 64px/84px Roboto;
+}
+.brand h2 span {
+  font: italic normal bold 24px/42px Roboto;
+  margin: 12px 0 32px 0;
+}
+.brand p {
+  width: 320px;
+  margin: 0 auto;
+  font: italic normal 400 20px/30px Roboto;
+}
+.brand > img {
+  margin-top: 68px;
+}
+.brand .small-pic {
+  display: flex;
+  justify-content: center;
+  margin: 40px 24px 0 0;
+}
+
+.works {
+  width: 1224px;
+  margin: 0 auto;
+  padding: 56px 0 144px 0;
+  text-align: center;
+}
+.works h2 {
+  font: italic normal 400 64px/84px Roboto;
+  margin-bottom: 16px;
+}
+.works h3 {
+  width: 226px;
+  margin: 0 auto;
+  font: italic normal 400 20px/30px Roboto;
+}
+.works ul p {
+  margin-top: 16px;
+  font: italic normal 400 20px/42px Roboto;
+}
+.works .col-pic {
+  display: flex;
+  justify-content: space-between;
+  margin: 56px 0 48px 0;
+}
+.works .row-pic {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 48px;
+}
+.works .design-pic {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer {
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  padding: 64px 0;
+}
+.footer .contact {
+  width: 315px;
+  margin: 0 auto;
+}
+.footer .contact h2 {
+  margin-bottom: 16px;
+  font: italic normal 400 64px/84px Roboto;
+}
+.footer .contact li {
+  margin-bottom: 16px;
+  font: italic normal 400 24px/36px Roboto;
+}/*# sourceMappingURL=all.css.map */
